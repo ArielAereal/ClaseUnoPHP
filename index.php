@@ -8,8 +8,9 @@
 <?php
 $numero = 10;
 
-echo 'EL NÚMERO ES: $numero';
+// echo "EL NÚMERO ES: $numero";
 
+echo "El cambio";
 ?>
 
 </body>
