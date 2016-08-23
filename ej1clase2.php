@@ -6,22 +6,35 @@
 
 <?php 
 
-$numero =1;
+//revisar que no sale bien :P 
 
-for ($i = 2;$numero < 1000 ;$i++)
+$numeroacumulador =1;
+$cantnum=1;
+$i =2;
+
+
+while ($numeroacumulador < 1000)
 {
 
-	$numero = $numero + $i; 
+$numeroacumulador = $numeroacumulador + $i; 
 
-if ($numero > 1000)
+$i++;
+$cantnum++;	
+
+
+
+	echo "Sume: $cantnum <br>"."y van sumando: $numeroacumulador <br> ";
+
+if($numeroacumuador > 1000)
 {
 	break;
 }
-	echo "Sume: $i <br>";
-	echo "y van sumando: $numero <br> ";
+
+
 }
 
-echo "Se sumaron: $i numeros";
+
+echo "Se sumaron: $cantnum numeros";
 
  ?>
 
