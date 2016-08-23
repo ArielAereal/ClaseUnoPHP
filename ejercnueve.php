@@ -32,6 +32,21 @@ foreach ($lapicera3 as $dato) {
 	echo "$dato <br>";
 }
 
+//ejj 10
+
+$vasodelapiceras = array($lapicera1,$lapicera2,$lapicera3);
+
+var_dump($vasodelapiceras);
+
+foreach ($vasodelapiceras as $lapicera) {
+	
+	echo $lapicera["color"]."<br>" ;
+
+	// echo $lapicera ver key value ;
+
+	
+}
+
  ?>
 
 </body>
