@@ -13,6 +13,8 @@ $lapicera2 = array("color" => "verde","marca" => "bic", "trazo" => "fino","preci
 
 $lapicera3 = array ("color"=> "negro", "marca" => "faber", "trazo" => "grueso", "precio" => 15);
 
+var_dump($lapicera1);
+
 foreach ($lapicera1 as $dato) {
 	echo "$dato <br>";
 }
