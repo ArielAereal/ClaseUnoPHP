@@ -1,6 +1,6 @@
 <?php 
 
-class FiguraGeometrica
+public class FiguraGeometrica
 {
 	protected $_color;
 	protected $_superficie;
@@ -12,15 +12,18 @@ function getColor ()
 	return $this->_color;
 }
 
-	//function __construct()
-	// {
-		
-	// } probar otros
+	function __construct()
+	 {
+		$this->_color = "algo";
+	    $this->_superficie = 13.60;
+	    $this->_perimetro = 15;
 
-	function FiguraGeometrica()
-	{
+	 } 
 
-	}
+	//function FiguraGeometrica()
+	//{
+
+	//}
 
 function setColor ($color)
 {
