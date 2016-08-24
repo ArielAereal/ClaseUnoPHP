@@ -1,27 +1,44 @@
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-
 <?php 
-/**
-* 
-*/
+
 class FiguraGeometrica
 {
-	protected _color;
-	proteted 
+	protected $_color;
+	protected $_superficie;
+	protected $_perimetro;
 
-	function __construct(argument)
-	{
+
+function getColor ()
+{
+	return $this->_color;
+}
+
+	//function __construct()
+	// {
 		
+	// } probar otros
+
+	function FiguraGeometrica()
+	{
+
 	}
+
+function setColor ($color)
+{
+	$this->_color = $color;
+}
+
+
+ public function ToString ()
+ {
+
+ }
+
+public abstract function Dibujar();
+
+protected abstract function CalcularDatos ();
+
 
 
 }
 
  ?>
-
-</body>
-</html>
